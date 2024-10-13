@@ -21,6 +21,7 @@ Tools>>SerialMonitot
 باز کرده و می بینیم ک رشته (hello) پشت سر هم چاپ میشود .
  
 ![code](./photo_2024-10-13_12-54 -12.jpg)
+....
 
 ```cpp
 int led = 13;
