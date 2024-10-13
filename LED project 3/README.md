@@ -20,4 +20,17 @@ Tools>>SerialMonitot
 (علامت ذره بین گوشه سمت راست مانیتور)
 باز کرده و می بینیم ک رشته (hello) پشت سر هم چاپ میشود .
  
-![code](./photo_2024-10-13_12-54-12.jpg")
+![code](./photo_2024-10-13_12-54 -12.jpg)
+
+```cpp
+int led = 13;
+int led1= 12;
+
+void setup ()  {
+Serial.begin(9600);
+}
+void loop () {
+Serial.println("hello");
+delay(1000);
+}
+``` 
